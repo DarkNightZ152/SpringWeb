@@ -1,0 +1,11 @@
+<decorators defaultdir = "/WEB-INF/views/layouts">
+    <decorator name = "user" page = "user.jsp">
+        <pattern>/trangchu/*</pattern>
+    </decorator>
+    <decorator name = "admin" page = "admin.jsp">
+        <pattern>/admin/*</pattern>
+    </decorator>
+    <decorator name = "staff" page = "staff.jsp">
+        <pattern>/staff/*</pattern>
+    </decorator>
+</decorators>
